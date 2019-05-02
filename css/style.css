@@ -1,0 +1,504 @@
+/*----------- Alles --------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+
+      font-family: arial, sans-serif;
+      font-weight: 100;
+}
+
+body {
+
+      width: 60%;
+      margin: auto;
+      background-image: url("img/achtergrond.png");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+h1 {
+
+      font-size: 40px;
+      font-weight: 400;
+      color: #17191A;
+}
+
+h2 {
+      font-size: 35px;
+      font-weight: 400;
+      padding-bottom: 5px;
+      color: #17191A;
+      text-decoration: overline;
+      font-size: 1.7vw;
+}
+
+h5 {
+      font-size: 28px;
+      margin-top: 10px;
+      color: #17191A;
+}
+
+p {
+      color: #8F9EA5;
+      font-weight: 100;
+      margin-top: 10px;
+      font-size: 1.2vw;
+}
+
+/*----------- topBar --------*/
+
+.topBar{
+
+      display: flex;
+      align-items: center;
+      height: 100px;
+}
+
+
+
+
+.contacteerMe , .icons{
+      flex: 1;
+}
+
+.icons {
+
+      text-align: right;
+}
+
+.icons a, .contacteerMe a, .contacteerMe img {
+
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.icons a{
+
+      margin-left: 40px;
+}
+
+.contacteerMe a{
+      color: #027BFF;
+      text-decoration: none;
+}
+
+.contacteerMe img{
+      margin-right: 10px;
+}
+
+
+/*----------- introductie --------*/
+
+
+.introductie{
+
+    height: 100vh;
+    position: relative;
+}
+
+.introductieContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    line-height: 1.25;
+}
+
+ul{
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.introductie{
+    margin-top: 4em;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#foto{
+  width: 450px;
+}
+
+
+
+/*----------- skills --------*/
+
+.skills{
+      text-align: center;
+      margin-bottom: 20em;
+}
+
+.skills p{
+      margin-bottom: 30px;
+}
+
+.skills img{
+      width: 40px;
+      margin: 0 15px;
+}
+
+
+
+/*----------- Opdracht 1 --------*/
+
+
+.opdracht1 {
+	display:flex;
+  padding-top: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.afbeeldingContainer1, .opdrachtTekst1 {
+	flex: 0 0 45%;
+}
+
+.afbeeldingContainer1 {
+	position:relative;
+	overflow:hidden;
+}
+
+.afbeelding1 {
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+  right: 0;
+}
+
+.opdrachtTekst1 {
+  left: 0;
+  line-height: 1.25;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------- Opdracht 2 --------*/
+
+
+.opdracht2 {
+	display:flex;
+  padding-top: 300px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.afbeeldingContainer2, .opdrachtTekst2 {
+	flex: 0 0 45%;
+}
+
+.afbeeldingContainer2 {
+	position:relative;
+	overflow:hidden;
+}
+
+.afbeelding2 {
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+  right: 0;
+}
+
+.opdrachtTekst2 {
+  line-height: 1.25;
+}
+
+
+
+/*----------- Opdracht 3 --------*/
+
+.opdracht3 {
+	display:flex;
+  padding-top: 300px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.afbeeldingContainer3, .opdrachtTekst3 {
+	flex: 0 0 45%;
+}
+
+.afbeeldingContainer3 {
+	position:relative;
+	overflow:hidden;
+}
+
+.afbeelding3 {
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+  right: 0;
+}
+
+.opdrachtTekst3 {
+  line-height: 1.25;
+}
+
+
+
+
+
+/*----------- Opdracht 4 --------*/
+
+.opdracht4{
+	display:flex;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.afbeeldingContainer4, .opdrachtTekst4 {
+	flex: 0 0 45%;
+}
+
+.afbeeldingContainer4 {
+	position:relative;
+	overflow:hidden;
+}
+
+.afbeelding4 {
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+  right: 0;
+}
+
+.opdrachtTekst4 {
+  line-height: 1.25;
+}
+
+
+
+/*----------- Contactformulier --------*/
+
+
+label
+{
+	display: block;
+	color: #000;
+	margin: 1em 0 0.5em 0;
+}
+
+input, textarea
+{
+	font-size: 1em;
+	padding: 0.8em;
+	border: 1px solid #ddd;
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+  margin-left: 250px;
+}
+
+.verstuurknop
+{
+	margin-top: 1.5em;
+}
+
+textarea
+{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	height: 100px;
+	margin-bottom: 1em;
+}
+
+.introductie2{
+
+    height: 100vh;
+    position: relative;
+}
+
+.introductieContainer2{
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.introductie2{
+    margin-top: 4em;
+}
+
+
+
+
+
+/*---responsive design---*/
+
+@media screen and (max-width: 1000px){
+  body{
+    width: 80%;
+
+  }
+
+  #foto{
+    width: 400px;
+  }
+
+
+}
+
+@media screen and (max-width: 700px){
+
+  #foto{
+    width: 200px;
+    padding-top: 50px;
+  }
+
+  .introductie{
+    text-align: center;
+    padding-top: -1000px;;
+    padding-bottom: 300px;
+    width: 100%;
+  }
+
+  .introductieContainer{
+    display: block;
+    top: 0;
+    padding-bottom: 300px;
+  }
+
+  .links{
+
+  }
+
+  .introductieContainer p{
+    font-size: 15px;
+  }
+
+  .topBar{
+        display: block;
+        align-items: center;
+        height: 100px;
+  }
+
+
+
+
+  p{
+    font-size: 15px;
+  }
+
+
+  /* Top bar */
+
+  .topBar{
+
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        margin: 0;
+        padding-bottom: 0;
+  }
+
+
+  .opdracht1, .opdracht2, .opdracht3, .opdracht4 {
+      vertical-align: top;
+      display: inline-block;
+      max-width: 100%;
+  }
+
+  .afbeeldingContainer1, .afbeeldingContainer2, .afbeeldingContainer3, .afbeeldingContainer4 {
+      padding-left: 0px;
+      padding-top: 50px;
+      max-width: 100%;
+      height: 500px;
+      max-height: 100%;
+  }
+
+
+
+
+
+
+
+
+  .icons a{
+
+        margin-left: 10px;
+  }
+
+  .contacteerMe a{
+        color: #027BFF;
+        text-decoration: none;
+        font-size: 12px;
+  }
+
+  .contacteerMe img{
+        margin-right: 10px;
+  }
+
+  .contacteerMe p{
+    font-size: 10px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  input, textarea
+  {
+  	font-size: 1em;
+  	padding: 0.8em;
+  	border: 1px solid #ddd;
+  	display: block;
+  	width: 100%;
+  	max-width: 300px;
+  	box-sizing: border-box;
+    margin-left: 0%;
+  }
+
+  form{
+    padding-top: 50px;
+  }
+
+  .introductieContainer2{
+    padding-bottom: 100px;
+  }
+
+
+
+}
